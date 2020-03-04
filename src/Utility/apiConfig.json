@@ -1,0 +1,6 @@
+{
+  "development": {
+  	"baseURL": "https://www.themealdb.com",
+    "restApiRoot": "/api/json/v1/1"
+  }
+}

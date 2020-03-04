@@ -1,0 +1,51 @@
+.home {
+  width: 100%;
+  height: 100%;
+  .content {
+    padding: 55px;
+    text-align: center;
+  }
+  .banner {
+    background-image: url("./../../Assets/images/banner.png");
+  }
+  .searchInput {
+    width: 60%;
+    margin: auto;
+    padding-top: 15%;
+  }
+  .searchBox {
+    display: inline-block;
+    width: 80%;
+  }
+  .filterBox {
+    padding-left: 10px;
+    display: inline-block;
+    width: 20%;
+  }
+  .listItem {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1270px;
+  }
+
+  .CardItem {
+    display: inline-block;
+    background-color: #fff;
+    width: 300px;
+    height: auto;
+    border: 1px solid #e6e6e6;
+    margin: 7px 7px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .CardItem img {
+    width: 100%;
+    height: 275px;
+  }
+  .CardItem p {
+    height: 20px;
+    padding: 10px;
+    overflow: hidden;
+  }
+}

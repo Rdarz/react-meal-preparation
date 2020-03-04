@@ -1,0 +1,47 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  color: #2d2d2d;
+  font-family: Arial;
+  overflow-x: hidden;
+  background-color: #fafaf5;
+}
+.note {
+  width: 50%;
+  background-color: #f4f4f4;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.header {
+  background-color: #ff5a60;
+  padding: 0px 35px;
+  color: white;
+  text-align: left;
+}
+.banner {
+  width: 100%;
+  height: 30em;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding: 35px 0;
+}
+
+.loader {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+.loader img {
+  width: 100px;
+}
